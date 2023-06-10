@@ -41,7 +41,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   margin-bottom: 10px;
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .about_name {
@@ -75,7 +75,6 @@ text-decoration: underline;
 
 .project-item {
   font-style: normal;
-
   line-height: 24px;
   color: #000000;
 }
@@ -91,7 +90,6 @@ text-decoration: underline;
 
 .project-link {
   margin-left: 10px;
-
 }
 
 .project-bracket {
@@ -209,7 +207,8 @@ text-decoration: underline;
 
 .ftl {
   color: #000000;
-  text-decoration: none;
+  /* text-decoration: none; */
+  font-style: italic;
 }
 
 .tech_skills_text {
@@ -222,6 +221,13 @@ text-decoration: underline;
 
 .soft_skills_text {
   color: white;
+}
+
+.task-link{
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-style: italic;
 }
 
 @media screen and (max-width: 576px) {
